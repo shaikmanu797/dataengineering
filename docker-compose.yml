@@ -5,7 +5,7 @@ services:
     container_name: dataengineering
     hostname: dataengineering
     build:
-      context: ./docker
+      context: .
     ports:
       - 3306:3306
     privileged: true

@@ -36,7 +36,10 @@ dependencies {
     compileOnly group: 'org.apache.spark', name: 'spark-hive_'+scalaBinaryVersion, version: sparkVersion
     
     testCompile group: 'org.scalatest', name: 'scalatest_'+scalaBinaryVersion, version: scalaTestVersion
+    testCompile group: 'mysql', name: 'mysql-connector-java', version: mysqlVersion
     testCompile group: 'com.holdenkarau', name: 'spark-testing-base_'+scalaBinaryVersion, version: sparkTestVersion
+
+    testRuntime group: 'org.pegdown', name: 'pegdown', version: pegdownVersion
 }
 
 test {

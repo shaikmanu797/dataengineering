@@ -1,10 +1,12 @@
 package dataengineering
 
 import java.io._
-import java.util.UUID
 import java.net.BindException
-import org.eclipse.jetty.util.MultiException
+import java.util.UUID
+
 import org.apache.spark.{Logging, SparkConf, SparkException}
+import org.eclipse.jetty.util.MultiException
+
 import scala.reflect.ClassTag
 
 object MockerUtils extends Logging {
@@ -21,14 +23,7 @@ object MockerUtils extends Logging {
     shutdownDeletePaths.foreach(cleanupPath)
     shutdownDeletePaths.foreach(cleanupPath)
   }
-  private def cleanupPath(dirPath: String): Unit = {
-    try {
-      MockerUtils.deleteRecursively(new File(dirPath))
-    } catch {
-      // Doesn't really matter if we fail.
-      case e: Exception => println("Exception during cleanup")
-    }
-  }
+
   /**
     * Check to see if file is a symbolic link.
     */
@@ -42,19 +37,6 @@ object MockerUtils extends Logging {
 
     !fileInCanonicalDir.getCanonicalFile.equals(fileInCanonicalDir.getAbsoluteFile)
   }
-
-  private def listFilesSafely(file: File): Seq[File] = {
-    if (file.exists()) {
-      val files = file.listFiles()
-      if (files == null) {
-        throw new IOException("Failed to list files for dir: " + file)
-      }
-      files
-    } else {
-      List()
-    }
-  }
-
 
   /**
     * Delete a file or directory and its contents recursively.
@@ -92,6 +74,15 @@ object MockerUtils extends Logging {
     }
   }
 
+  /**
+    * Create a temporary directory inside the given parent directory.
+    * The directory will be automatically deleted when the VM shuts down.
+    */
+  def createTempDir(root: String = System.getProperty("java.io.tmpdir")): File = {
+    val dir = createDirectory(root)
+    registerShutdownDeleteDir(dir)
+    dir
+  }
 
   // Register the path to be deleted via shutdown hook
   def registerShutdownDeleteDir(file: File) {
@@ -100,7 +91,6 @@ object MockerUtils extends Logging {
       shutdownDeletePaths += absolutePath
     }
   }
-
 
   /**
     * Create a directory inside the given parent directory.
@@ -122,35 +112,26 @@ object MockerUtils extends Logging {
         if (dir.exists() || !dir.mkdirs()) {
           dir = null
         }
-      } catch { case e: SecurityException => dir = null; }
+      } catch {
+        case e: SecurityException => dir = null;
+      }
     }
 
     dir
   }
 
   /**
-    * Create a temporary directory inside the given parent directory.
-    * The directory will be automatically deleted when the VM shuts down.
-    */
-  def createTempDir(root: String = System.getProperty("java.io.tmpdir")): File = {
-    val dir = createDirectory(root)
-    registerShutdownDeleteDir(dir)
-    dir
-  }
-
-
-  /**
     * Attempt to start a service on the given port, or fail after a number of
     * attempts. Each subsequent attempt uses 1 + the port used in the previous attempt
     * (unless the port is 0).
     *
-    * @param startPort The initial port to start the service on.
+    * @param startPort    The initial port to start the service on.
     * @param startService Function to start service on a given port.
     *                     This is expected to throw java.net.BindException on port
     *                     collision.
-    * @param conf A SparkConf used to get the maximum number of
-    *             retries when binding to a port.
-    * @param serviceName Name of the service.
+    * @param conf         A SparkConf used to get the maximum number of
+    *                     retries when binding to a port.
+    * @param serviceName  Name of the service.
     */
   def startServiceOnPort[T](
                              startPort: Int,
@@ -210,6 +191,27 @@ object MockerUtils extends Logging {
       case e: MultiException => e.getThrowables.exists(isBindCollision)
       case e: Exception => isBindCollision(e.getCause)
       case _ => false
+    }
+  }
+
+  private def cleanupPath(dirPath: String): Unit = {
+    try {
+      MockerUtils.deleteRecursively(new File(dirPath))
+    } catch {
+      // Doesn't really matter if we fail.
+      case e: Exception => println("Exception during cleanup")
+    }
+  }
+
+  private def listFilesSafely(file: File): Seq[File] = {
+    if (file.exists()) {
+      val files = file.listFiles()
+      if (files == null) {
+        throw new IOException("Failed to list files for dir: " + file)
+      }
+      files
+    } else {
+      List()
     }
   }
 

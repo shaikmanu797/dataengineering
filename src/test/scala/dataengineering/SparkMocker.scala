@@ -8,27 +8,27 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.internal.SQLConf
 import org.scalatest.Suite
 
-trait SparkMocker { this: Suite =>
+trait SparkMocker {
+  this: Suite =>
 
-  def getSparkSession: SparkSession = {
-    val ssb: SparkSession.Builder = SparkSession.builder().config(sparkConfig())
-    if(enableHiveSupport) ssb.enableHiveSupport()
-    ssb.getOrCreate()
-  }
-
-  private val tempDir: File = MockerUtils.createTempDir()
+  val tempDir: File = MockerUtils.createTempDir()
   private val localWarehousePath: File = new File(tempDir, "warehouse")
   private val localMetastorePath: File = new File(tempDir, "metastore")
 
-  def appID: String = this.getClass.getName + math.floor(math.random * 10E4).toLong.toString
+  def getSparkSession: SparkSession = {
+    val ssb: SparkSession.Builder = SparkSession.builder().config(sparkConfig())
+    if (enableHiveSupport) ssb.enableHiveSupport()
+    ssb.getOrCreate()
+  }
 
   def enableHiveSupport: Boolean = true
 
   def sparkConfig(sparkConf: Option[SparkConf] = None): SparkConf = {
-    if(sparkConf.isEmpty) {
+    if (sparkConf.isEmpty) {
       val conf: SparkConf = new SparkConf()
       conf.setAppName("dataengineering_test")
       conf.setMaster("local[2]")
+      conf.set("spark.logConf", "true")
       conf.set("spark.app.id", appID)
       conf.set("spark.ui.enabled", "false")
       conf.set(SQLConf.CODEGEN_FALLBACK.key, "false")
@@ -41,10 +41,12 @@ trait SparkMocker { this: Suite =>
       conf.set("spark.sql.parquet.compression.codec", "snappy")
       conf.set("hive.exec.dynamic.partition", "true")
       conf.set("hive.exec.dynamic.partition.mode", "nonstrict")
-    }else {
+    } else {
       sparkConf.get
     }
   }
+
+  def appID: String = this.getClass.getName + math.floor(math.random * 10E4).toLong.toString
 
   def stopSparkSession(sparkSession: SparkSession): Unit = {
     sparkSession.stop()

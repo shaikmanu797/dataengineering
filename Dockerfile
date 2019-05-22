@@ -3,6 +3,8 @@ MAINTAINER Mansoor Baba Shaik "mansoorbabashaik@outlook.com"
 
 ENV container=docker
 ENV MYSQL_PORT=3306
+ENV JAVA_HOME=/usr/lib/jvm/jre
+ENV DATA_DIR=/data
 
 RUN yum -y install wget && \
     wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm && \
@@ -15,12 +17,19 @@ RUN yum -y install python-setuptools && \
     easy_install pip && \
     pip install supervisor
 
+RUN yum -y install java-1.8.0-openjdk
+
 RUN yum -y clean all; rm -rf /var/yum/cache
 
-COPY my.cnf /etc
+RUN mkdir -p /etc/supervisor.d /var/log/supervisor /var/log/app /data /apps/dataengineering
+RUN chmod -R 777 /data
 
-RUN mkdir -p /etc/supervisor.d /var/log/supervisord /var/log/dataengineering
-COPY supervisord.conf /etc/supervisor.d
+COPY . /apps/dataengineering
+
+RUN cp /apps/dataengineering/configs/my.cnf /etc/
+RUN cp /apps/dataengineering/configs/supervisord.conf /etc/supervisor.d/
+RUN cp /apps/dataengineering/configs/stop-supervisor.sh /
+RUN chmod +x /stop-supervisor.sh
 
 EXPOSE $MYSQL_PORT
 
