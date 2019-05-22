@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  dataengineering:
+    image: dataengineering:latest
+    container_name: dataengineering
+    hostname: dataengineering
+    build:
+      context: ./docker
+    ports:
+      - 3306:3306
+    privileged: true
