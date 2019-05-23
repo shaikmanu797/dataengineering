@@ -1,0 +1,386 @@
+<scoverage 
+statement-count="101" statements-invoked="97" statement-rate="96.04" branch-rate="50.00" version="1.0" timestamp="1558574935704">
+    <packages>
+        <package name="dataengineering" statement-count="71" statements-invoked="67" statement-rate="94.37">
+            <classes>
+                <class 
+                name="dataengineering.Reporting" filename="src/main/scala/dataengineering/Reporting.scala" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="dataengineering/Reporting/findFraudTxn" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="dataengineering" class="Reporting" class-type="Class" full-class-name="dataengineering.Reporting" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/Reporting.scala" method="findFraudTxn" start="1327" end="1351" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="Reporting" class-type="Class" full-class-name="dataengineering.Reporting" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/Reporting.scala" method="findFraudTxn" start="1343" end="1350" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="dataengineering/Reporting/countFraudTxnByCol" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="dataengineering" class="Reporting" class-type="Class" full-class-name="dataengineering.Reporting" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/Reporting.scala" method="countFraudTxnByCol" start="996" end="1049" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="Reporting" class-type="Class" full-class-name="dataengineering.Reporting" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/Reporting.scala" method="countFraudTxnByCol" start="966" end="1050" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="dataengineering.JDBC" filename="src/main/scala/dataengineering/JDBC.scala" statement-count="13" statements-invoked="13" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="dataengineering/JDBC/write" statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="dataengineering" class="JDBC" class-type="Object" full-class-name="dataengineering.JDBC" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/JDBC.scala" method="write" start="2255" end="2281" line="51" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="JDBC" class-type="Object" full-class-name="dataengineering.JDBC" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/JDBC.scala" method="write" start="2414" end="2435" line="54" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="JDBC" class-type="Object" full-class-name="dataengineering.JDBC" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/JDBC.scala" method="write" start="2240" end="2437" line="54" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="JDBC" class-type="Object" full-class-name="dataengineering.JDBC" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/JDBC.scala" method="write" start="2345" end="2366" line="54" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="JDBC" class-type="Object" full-class-name="dataengineering.JDBC" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/JDBC.scala" method="write" start="2331" end="2343" line="54" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="JDBC" class-type="Object" full-class-name="dataengineering.JDBC" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/JDBC.scala" method="write" start="2368" end="2436" line="54" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="dataengineering/JDBC/getConnPropsWithCreds" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="dataengineering" class="JDBC" class-type="Object" full-class-name="dataengineering.JDBC" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/JDBC.scala" method="getConnPropsWithCreds" start="1557" end="1600" line="36" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="JDBC" class-type="Object" full-class-name="dataengineering.JDBC" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/JDBC.scala" method="getConnPropsWithCreds" start="1513" end="1552" line="35" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="dataengineering/JDBC/read" statement-count="5" statements-invoked="5" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="dataengineering" class="JDBC" class-type="Object" full-class-name="dataengineering.JDBC" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/JDBC.scala" method="read" start="898" end="919" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="JDBC" class-type="Object" full-class-name="dataengineering.JDBC" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/JDBC.scala" method="read" start="861" end="990" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="JDBC" class-type="Object" full-class-name="dataengineering.JDBC" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/JDBC.scala" method="read" start="921" end="989" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="JDBC" class-type="Object" full-class-name="dataengineering.JDBC" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/JDBC.scala" method="read" start="884" end="896" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="JDBC" class-type="Object" full-class-name="dataengineering.JDBC" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/JDBC.scala" method="read" start="967" end="988" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="dataengineering.ZipFileLoader" filename="src/main/scala/dataengineering/ZipFileLoader.scala" statement-count="54" statements-invoked="50" statement-rate="92.59" branch-rate="50.00">
+                    <methods>
+                        <method 
+                        name="dataengineering/ZipFileLoader/&lt;none&gt;" statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="&lt;none&gt;" start="1022" end="1039" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="&lt;none&gt;" start="816" end="891" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="&lt;none&gt;" start="923" end="984" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="&lt;none&gt;" start="825" end="890" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="&lt;none&gt;" start="841" end="889" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="&lt;none&gt;" start="938" end="983" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="dataengineering/ZipFileLoader/getDF" statement-count="48" statements-invoked="44" statement-rate="91.67" branch-rate="50.00">
+                            <statements>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1826" end="1888" line="40" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1670" end="1712" line="36" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1978" end="2021" line="44" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1528" end="1531" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1592" end="1618" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1753" end="1786" line="38" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1896" end="1930" line="41" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1552" end="1584" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1485" end="1485" line="31" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1389" end="1415" line="29" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="2065" end="2107" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1828" end="1856" line="40" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1461" end="1479" line="30" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1528" end="1584" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1629" end="1665" line="35" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1798" end="1973" line="39" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1650" end="1664" line="35" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1937" end="1967" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1821" end="1823" line="40" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1997" end="2020" line="44" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1857" end="1886" line="40" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1608" end="1617" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1694" end="1711" line="36" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1489" end="1509" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="2026" end="2060" line="45" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1485" end="1485" line="31" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1753" end="1786" line="38" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1410" end="1414" line="29" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1541" end="1543" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1806" end="1889" line="40" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1539" end="1584" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1434" end="1434" line="30" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1815" end="1888" line="40" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="2038" end="2059" line="45" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1948" end="1966" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1640" end="1648" line="35" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1815" end="1818" line="40" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1435" end="1444" line="30" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1543" end="1552" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1681" end="1692" line="36" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1887" end="1888" line="40" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1420" end="1480" line="30" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1519" end="1585" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1989" end="1995" line="44" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1511" end="1624" line="31" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1721" end="1743" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1399" end="1408" line="29" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering" class="ZipFileLoader" class-type="Class" full-class-name="dataengineering.ZipFileLoader" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/ZipFileLoader.scala" method="getDF" start="1534" end="1536" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+        <package name="dataengineering.utils" statement-count="30" statements-invoked="30" statement-rate="100.00">
+            <classes>
+                <class 
+                name="dataengineering.utils.Spark" filename="src/main/scala/dataengineering/utils/Spark.scala" statement-count="30" statements-invoked="30" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="dataengineering.utils/Spark/filterPrefixCol" statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="filterPrefixCol" start="1729" end="1749" line="45" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="filterPrefixCol" start="1764" end="1799" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="filterPrefixCol" start="1750" end="1759" line="45" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="filterPrefixCol" start="1774" end="1798" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="filterPrefixCol" start="1725" end="1728" line="45" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="filterPrefixCol" start="1723" end="1759" line="45" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="dataengineering.utils/Spark/zipToRDD" statement-count="18" statements-invoked="18" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="1164" end="1210" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="1225" end="1279" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="843" end="843" line="24" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="1045" end="1061" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="817" end="1303" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="743" end="811" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="1183" end="1209" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="738" end="740" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="1269" end="1278" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="723" end="812" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="981" end="1015" line="27" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="1026" end="1294" line="30" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="1117" end="1117" line="30" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="1000" end="1014" line="27" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="732" end="735" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="1086" end="1095" line="29" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="1244" end="1257" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="zipToRDD" start="732" end="811" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="dataengineering.utils/Spark/saveAsJson" statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="saveAsJson" start="2203" end="2258" line="57" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="saveAsJson" start="2160" end="2197" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="saveAsJson" start="2140" end="2198" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="saveAsJson" start="2155" end="2157" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="saveAsJson" start="2149" end="2152" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="dataengineering.utils" class="Spark" class-type="Object" full-class-name="dataengineering.utils.Spark" source="/Users/arcizon/IdeaProjects/dataengineering/src/main/scala/dataengineering/utils/Spark.scala" method="saveAsJson" start="2149" end="2197" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

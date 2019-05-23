@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage 
+line-rate="0.96" lines-valid="101" lines-covered="97" branches-valid="4" branches-covered="2" branch-rate="0.50" complexity="0" version="1.0" timestamp="1558574935564">
+    <sources>
+        <source>--source</source>
+        <source>/Users/arcizon/IdeaProjects/dataengineering</source>
+    </sources>
+    <packages>
+        <package name="dataengineering" line-rate="0.94" branch-rate="0.50" complexity="0">
+            <classes>
+                <class 
+                name="dataengineering.Reporting" filename="src/main/scala/dataengineering/Reporting.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method 
+                        name="dataengineering/Reporting/findFraudTxn" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="31" hits="1" branch="false"/>
+                                <line number="31" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method 
+                        name="dataengineering/Reporting/countFraudTxnByCol" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                            </lines>
+</method>
+                    </methods>
+                    <lines>
+                        <line number="31" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="31" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                    </lines>
+</class>
+                <class 
+                name="dataengineering.JDBC" filename="src/main/scala/dataengineering/JDBC.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="dataengineering/JDBC/write" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="51" hits="1" branch="false"/>
+                                <line number="54" hits="1" branch="false"/>
+                                <line number="54" hits="1" branch="false"/>
+                                <line number="54" hits="1" branch="false"/>
+                                <line number="54" hits="1" branch="false"/>
+                                <line number="54" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method 
+                        name="dataengineering/JDBC/getConnPropsWithCreds" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="36" hits="1" branch="false"/>
+                                <line number="35" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method name="dataengineering/JDBC/read" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="51" hits="1" branch="false"/>
+                        <line number="54" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="54" hits="1" branch="false"/>
+                        <line number="36" hits="1" branch="false"/>
+                        <line number="54" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="54" hits="1" branch="false"/>
+                        <line number="54" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="35" hits="1" branch="false"/>
+                    </lines>
+</class>
+                <class 
+                name="dataengineering.ZipFileLoader" filename="src/main/scala/dataengineering/ZipFileLoader.scala" line-rate="0.93" branch-rate="0.50" complexity="0">
+                    <methods>
+                        <method 
+                        name="dataengineering/ZipFileLoader/&lt;none&gt;" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="20" hits="1" branch="false"/>
+                                <line number="18" hits="1" branch="false"/>
+                                <line number="19" hits="1" branch="false"/>
+                                <line number="18" hits="1" branch="false"/>
+                                <line number="18" hits="1" branch="false"/>
+                                <line number="19" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method name="dataengineering/ZipFileLoader/getDF" signature="()V" line-rate="0.92" branch-rate="0.50" complexity="0">
+                            <lines>
+                                <line number="40" hits="1" branch="false"/>
+                                <line number="36" hits="1" branch="false"/>
+                                <line number="44" hits="1" branch="false"/>
+                                <line number="32" hits="1" branch="false"/>
+                                <line number="33" hits="1" branch="false"/>
+                                <line number="38" hits="0" branch="false"/>
+                                <line number="41" hits="1" branch="false"/>
+                                <line number="32" hits="1" branch="false"/>
+                                <line number="31" hits="0" branch="false"/>
+                                <line number="29" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="40" hits="1" branch="false"/>
+                                <line number="30" hits="1" branch="false"/>
+                                <line number="32" hits="1" branch="false"/>
+                                <line number="35" hits="1" branch="false"/>
+                                <line number="39" hits="1" branch="false"/>
+                                <line number="35" hits="1" branch="false"/>
+                                <line number="42" hits="1" branch="false"/>
+                                <line number="40" hits="1" branch="false"/>
+                                <line number="44" hits="1" branch="false"/>
+                                <line number="40" hits="1" branch="false"/>
+                                <line number="33" hits="1" branch="false"/>
+                                <line number="36" hits="1" branch="false"/>
+                                <line number="31" hits="1" branch="false"/>
+                                <line number="45" hits="1" branch="false"/>
+                                <line number="31" hits="0" branch="false"/>
+                                <line number="38" hits="0" branch="false"/>
+                                <line number="29" hits="1" branch="false"/>
+                                <line number="32" hits="1" branch="false"/>
+                                <line number="40" hits="1" branch="false"/>
+                                <line number="32" hits="1" branch="false"/>
+                                <line number="30" hits="1" branch="false"/>
+                                <line number="40" hits="1" branch="false"/>
+                                <line number="45" hits="1" branch="false"/>
+                                <line number="42" hits="1" branch="false"/>
+                                <line number="35" hits="1" branch="false"/>
+                                <line number="40" hits="1" branch="false"/>
+                                <line number="30" hits="1" branch="false"/>
+                                <line number="32" hits="1" branch="false"/>
+                                <line number="36" hits="1" branch="false"/>
+                                <line number="40" hits="1" branch="false"/>
+                                <line number="30" hits="1" branch="false"/>
+                                <line number="32" hits="1" branch="false"/>
+                                <line number="44" hits="1" branch="false"/>
+                                <line number="31" hits="1" branch="false"/>
+                                <line number="37" hits="1" branch="false"/>
+                                <line number="29" hits="1" branch="false"/>
+                                <line number="32" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="20" hits="1" branch="false"/>
+                        <line number="40" hits="1" branch="false"/>
+                        <line number="36" hits="1" branch="false"/>
+                        <line number="44" hits="1" branch="false"/>
+                        <line number="32" hits="1" branch="false"/>
+                        <line number="33" hits="1" branch="false"/>
+                        <line number="38" hits="0" branch="false"/>
+                        <line number="41" hits="1" branch="false"/>
+                        <line number="32" hits="1" branch="false"/>
+                        <line number="31" hits="0" branch="false"/>
+                        <line number="29" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="40" hits="1" branch="false"/>
+                        <line number="30" hits="1" branch="false"/>
+                        <line number="32" hits="1" branch="false"/>
+                        <line number="35" hits="1" branch="false"/>
+                        <line number="18" hits="1" branch="false"/>
+                        <line number="39" hits="1" branch="false"/>
+                        <line number="35" hits="1" branch="false"/>
+                        <line number="42" hits="1" branch="false"/>
+                        <line number="40" hits="1" branch="false"/>
+                        <line number="44" hits="1" branch="false"/>
+                        <line number="40" hits="1" branch="false"/>
+                        <line number="33" hits="1" branch="false"/>
+                        <line number="36" hits="1" branch="false"/>
+                        <line number="19" hits="1" branch="false"/>
+                        <line number="31" hits="1" branch="false"/>
+                        <line number="45" hits="1" branch="false"/>
+                        <line number="31" hits="0" branch="false"/>
+                        <line number="38" hits="0" branch="false"/>
+                        <line number="29" hits="1" branch="false"/>
+                        <line number="32" hits="1" branch="false"/>
+                        <line number="40" hits="1" branch="false"/>
+                        <line number="32" hits="1" branch="false"/>
+                        <line number="30" hits="1" branch="false"/>
+                        <line number="18" hits="1" branch="false"/>
+                        <line number="40" hits="1" branch="false"/>
+                        <line number="45" hits="1" branch="false"/>
+                        <line number="42" hits="1" branch="false"/>
+                        <line number="35" hits="1" branch="false"/>
+                        <line number="40" hits="1" branch="false"/>
+                        <line number="30" hits="1" branch="false"/>
+                        <line number="32" hits="1" branch="false"/>
+                        <line number="18" hits="1" branch="false"/>
+                        <line number="36" hits="1" branch="false"/>
+                        <line number="19" hits="1" branch="false"/>
+                        <line number="40" hits="1" branch="false"/>
+                        <line number="30" hits="1" branch="false"/>
+                        <line number="32" hits="1" branch="false"/>
+                        <line number="44" hits="1" branch="false"/>
+                        <line number="31" hits="1" branch="false"/>
+                        <line number="37" hits="1" branch="false"/>
+                        <line number="29" hits="1" branch="false"/>
+                        <line number="32" hits="1" branch="false"/>
+                    </lines>
+</class>
+            </classes>
+        </package>
+        <package name="dataengineering.utils" line-rate="1.00" branch-rate="1.00" complexity="0">
+            <classes>
+                <class 
+                name="dataengineering.utils.Spark" filename="src/main/scala/dataengineering/utils/Spark.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method 
+                        name="dataengineering.utils/Spark/filterPrefixCol" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="45" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="45" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="45" hits="1" branch="false"/>
+                                <line number="45" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method name="dataengineering.utils/Spark/zipToRDD" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="31" hits="1" branch="false"/>
+                                <line number="32" hits="1" branch="false"/>
+                                <line number="24" hits="1" branch="false"/>
+                                <line number="28" hits="1" branch="false"/>
+                                <line number="25" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="31" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="32" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="27" hits="1" branch="false"/>
+                                <line number="30" hits="1" branch="false"/>
+                                <line number="30" hits="1" branch="false"/>
+                                <line number="27" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="29" hits="1" branch="false"/>
+                                <line number="32" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method 
+                        name="dataengineering.utils/Spark/saveAsJson" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="57" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                            </lines>
+</method>
+                    </methods>
+                    <lines>
+                        <line number="45" hits="1" branch="false"/>
+                        <line number="57" hits="1" branch="false"/>
+                        <line number="31" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="32" hits="1" branch="false"/>
+                        <line number="24" hits="1" branch="false"/>
+                        <line number="28" hits="1" branch="false"/>
+                        <line number="25" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="45" hits="1" branch="false"/>
+                        <line number="31" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="32" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="27" hits="1" branch="false"/>
+                        <line number="30" hits="1" branch="false"/>
+                        <line number="30" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="27" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="45" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="29" hits="1" branch="false"/>
+                        <line number="32" hits="1" branch="false"/>
+                        <line number="45" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                    </lines>
+</class>
+            </classes>
+        </package>
+    </packages>
+</coverage>
